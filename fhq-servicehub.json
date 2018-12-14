@@ -1,14 +1,19 @@
 {
     "id": "sibirctf2018_the_hole",
     "name": "The Hole",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "game": "SibirCTF 2018",
     "author": "Artem",
     "created": "Aug 2018",
-    "email": "",
-    "issues": "https://github.com/SibirCTF/2018-service-the-hole/issues",
-    "checker-requirements": [
-        "RUN apt-get install -y python3 python3-requests python3-pip libssl-dev"
+    "contacts": "",
+    "checker-install-linux-packages": [
+        "python",
+        "python-requests",
+        "python-pip",
+        "libssl-dev"
+    ],
+    "checker-install-run-commands": [
+        "pip install requests"
     ],
     "keywords": [
         "python3",
