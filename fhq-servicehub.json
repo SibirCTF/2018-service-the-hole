@@ -1,7 +1,7 @@
 {
     "id": "sibirctf2018_the_hole",
     "name": "The Hole",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "game": "SibirCTF 2018",
     "author": "Artem",
     "created": "Aug 2018",
@@ -9,7 +9,6 @@
     "issues": "https://github.com/SibirCTF/2018-service-the-hole/",
     "checker-install-linux-packages": [
         "python",
-        "python-requests",
         "python-pip",
         "libssl-dev"
     ],
@@ -20,9 +19,8 @@
         5003
     ],
     "keywords": [
-        "python3",
-        "sibitctf2018",
-        "the_hole"
+        "c++",
+        "buffer overflow"
     ],
     "skip": ""
 }
