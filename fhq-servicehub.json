@@ -1,11 +1,12 @@
 {
     "id": "sibirctf2018_the_hole",
     "name": "The Hole",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "game": "SibirCTF 2018",
     "author": "Artem",
     "created": "Aug 2018",
     "contacts": "",
+    "issues": "https://github.com/SibirCTF/2018-service-the-hole/",
     "checker-install-linux-packages": [
         "python",
         "python-requests",
@@ -14,6 +15,9 @@
     ],
     "checker-install-run-commands": [
         "pip install requests"
+    ],
+    "service-using-ports": [
+        5003
     ],
     "keywords": [
         "python3",
