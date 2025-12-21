@@ -1,0 +1,40 @@
+{
+  "service_name": "2018-service-the-hole",
+  "display_name": "The Hole",
+  "ctf_event": "Sibir CTF 2018",
+  "year": 2018,
+  "description": "Сокетный чат с регистрацией и приватными сообщениями.",
+  "author": null,
+  "service_port": 5003,
+  "languages": [
+    "C++"
+  ],
+  "tech_stack": [
+    "C++",
+    "TCP"
+  ],
+  "dependencies": {
+    "runtime": [],
+    "development": [],
+    "system": [
+      "g++"
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "type": "Buffer Overflow",
+      "description": "strcpy копирует username/nickname/password в фиксированные буферы.",
+      "severity": "High"
+    },
+    {
+      "type": "Backdoor",
+      "description": "Команда DELETE_THIS_COMMAND выставляет админский статус и пароль.",
+      "severity": "High"
+    }
+  ],
+  "metadata": {
+    "difficulty": null,
+    "category": null,
+    "tags": []
+  }
+}
